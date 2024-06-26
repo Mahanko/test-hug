@@ -27,6 +27,20 @@ body {
     width: 90px;
     height: 90px;
     border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.abouts {
+    background-color: gray;
+    margin-top: 20px;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.abouts:hover {
+    background-color: rgb(36, 36, 36);
 }
 
 .logo {

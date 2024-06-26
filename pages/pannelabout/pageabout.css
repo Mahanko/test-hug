@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    font-family: 'Exo 2';
+    height: 100%;
+}
+
+.main {
+    background-color: rgb(42, 42, 42);
+    width: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin: 150px auto;
+    height: 600px;
+    border-radius: 60px;
+    overflow: hidden;
+    padding: 30px;
+    color: whitesmoke;
+}
+
+.toptext {
+    font-size: 20px;
+}
+
+.address i {
+    position: absolute;
+    right: 20px;
+    top: 130px;
+    font-size: 20px;
+}
+
+.address-text {
+    position: absolute;
+    right: 50px;
+    font-size: 15px;
+    font-weight: 300;
+    top: 168px;
+}
