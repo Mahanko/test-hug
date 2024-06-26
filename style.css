@@ -28,6 +28,9 @@ body{
     height: 90px;
     border-radius: 30px;
 }
+.logo{
+    margin-bottom: 40px;
+}
 
 .main{
     margin-top: 160px;
