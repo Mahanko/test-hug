@@ -19,8 +19,8 @@ body {
     text-align: center;
     justify-content: center;
     position: relative;
-    margin: 150px auto;
-    height: 600px;
+    margin: 10px auto;
+    height: 750px;
     border-radius: 60px;
     overflow: hidden;
     padding: 30px;
@@ -30,7 +30,19 @@ body {
 .toptext {
     font-size: 20px;
 }
-
+.time i{
+    position: absolute;
+    right: 20px;
+    top: 210px;
+    font-size: 20px;
+}
+.time-text{
+    position: absolute;
+    right: 50px;
+    font-size: 15px;
+    font-weight: 300;
+    top: 238px;
+}
 .address i {
     position: absolute;
     right: 20px;
@@ -44,4 +56,35 @@ body {
     font-size: 15px;
     font-weight: 300;
     top: 168px;
+}
+.phone i {
+    position: absolute;
+    right: 20px;
+    top: 280px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.tel{
+    position: absolute;
+    right: 50px;
+    top: 310px;
+    color: whitesmoke;
+}
+.tel a{
+    color: whitesmoke;
+    margin-left: 60px;
+    font-weight: 300;
+}
+.location iframe{
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 370px;
+    left: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
