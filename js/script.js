@@ -12,3 +12,7 @@ menubutoon.addEventListener('click',()=>{
 closemenu.addEventListener('click',()=>{
     menuslide.setAttribute("style","display: none");
 })
+
+
+
+
