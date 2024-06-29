@@ -646,14 +646,14 @@ body {
     margin-bottom: 20px;
 }
 .card-infos .card-img{
-    width: 140px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
     overflow: hidden;
     position: absolute;
     right: 10px;
     text-align: center;
     align-items: center;
-    top: 10px;
+    top: 20px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -661,15 +661,15 @@ body {
     -o-border-radius: 10px;
 }
 .card-infos .card-img img{
-    width: 140px;
-    height: 130px;
+    width: 90px;
+    height: 90px;
 }
 .card-name{
     position: absolute;
     right: 180px;
     font-size: 20px;
     top: 20px;
-    
+
     font-weight: 500 !important;
 }
 /* menu  */
