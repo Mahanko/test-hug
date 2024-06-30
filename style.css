@@ -663,14 +663,140 @@ body {
 .card-infos .card-img img{
     width: 90px;
     height: 90px;
-    
+
 }
 .card-name{
     position: absolute;
-    right: 180px;
+    right: 120px;
     font-size: 20px;
     top: 20px;
-
-    font-weight: 500 !important;
+    font-weight: 600 !important;
+}
+.card-price{
+    position: absolute;
+    bottom: 50px;
+    right: 140px;
+}
+.riyal{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.yaddasht{
+    position: fixed;
+    top: 590px;
+    left: 0;
+    height: 150px;
+    display: none;
+    width: 100%;
+    box-shadow: 0 0 10px var(--white);
+    z-index: 1000;
+    width: 1000;
+    background-color: var(--menu-back);
+}
+.buy{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    display: flex;
+}
+.buy div {
+    margin-left: 20px;
+}
+.buy button {
+    font-weight: 600;
+    background-color: var(--menu-back);
+    border-radius: 30px;
+    height: 40px;
+    text-align: center;
+    width: 30px;
+    color: var(--white);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
 /* menu  */
+
+
+/* menuwhenbuy  */
+.close-yad{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: var(--white);
+    color: var(--black);
+    cursor: pointer;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 28px;
+    width: 30px;
+    text-align: center;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.sabad{
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    background-color: var(--white);
+    padding: 10px;
+    height: 70px;
+    text-align: center;
+    border-radius: 5px;
+    width: 70px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.sabad i{
+    font-size: 50px;
+    color: var(--black);
+}
+.plusBuy,
+.negBuy{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+}
+.boxprice{
+    color: var(--white);
+    position: absolute;
+    right: 260px;
+    top: 0;
+}
+.tomas-show{
+    position: absolute;
+    top: 21px;
+    left: -40px;
+    font-size: 20px;
+}
+.showprice{
+    position: absolute;
+    top: 28px;
+    left: 50px;
+}
+
+/* menuwhenbuy  */

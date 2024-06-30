@@ -16,10 +16,10 @@
 
 <body class="body">
 
-<div class="preload" data-preaload>
-    <div class="circle"></div>
-    <p class="text">Hug</p>
-</div>
+    <div class="preload" data-preaload>
+        <div class="circle"></div>
+        <p class="text">Hug</p>
+    </div>
 
 
     <div class="header-menu">
@@ -52,7 +52,7 @@
                             </div>
                         </a>
                     </div>
-    
+
                     <div class="col">
                         <a href="#">
                             <div class="backimage">
@@ -61,7 +61,7 @@
                             </div>
                         </a>
                     </div>
-    
+
                     <div class="col">
                         <a href="#">
                             <div class="backimage">
@@ -70,8 +70,8 @@
                             </div>
                         </a>
                     </div>
-    
-    
+
+
                     <div class="col">
                         <a href="#">
                             <div class="backimage">
@@ -80,8 +80,8 @@
                             </div>
                         </a>
                     </div>
-    
-    
+
+
                     <div class="col">
                         <a href="#">
                             <div class="backimage">
@@ -90,8 +90,8 @@
                             </div>
                         </a>
                     </div>
-    
-                    
+
+
                     <div class="col">
                         <a href="#">
                             <div class="backimage">
@@ -100,7 +100,7 @@
                             </div>
                         </a>
                     </div>
-    
+
                     <div class="col">
                         <a href="#">
                             <div class="backimage">
@@ -109,7 +109,7 @@
                             </div>
                         </a>
                     </div>
-    
+
                     <div class="col">
                         <a href="#">
                             <div class="backimage">
@@ -118,8 +118,8 @@
                             </div>
                         </a>
                     </div>
-    
-    
+
+
                     <div class="col">
                         <a href="#">
                             <div class="backimage">
@@ -137,51 +137,65 @@
             <div class="container text-center">
                 <div class="row r">
                     <div class="title-card">Espresso Base</div>
-                  <div class="col">
-                    <div class="card-rows">
-                        <div class="card-infos">
-                            <div class="card-img">
-                                <img src="img/logo.jpg" alt="logo">
-                            </div>
-                            <div class="card-name">اسپرسو کارامل</div>
-                            <div class="card-price">
-                                20.000 
-                            </div>
-                            <div class="buy">
-                                <div class="plusBuy"></div>
-                                <div class="negBuy"></div>
+                    <div class="col">
+                        <div class="card-rows">
+                            <div class="card-infos" id="product1">
+                                <div class="card-img">
+                                    <img src="img/logo.jpg" alt="logo">
+                                </div>
+                                <div class="card-name">اسپرسو کارامل</div>
+                                <div class="card-price" dir="rtl">
+                                    20.000 <img src="img/toman.webp" class="riyal" alt="">
+                                </div>
+                                <div class="buy">
+                                    <div id="counter">
+                                        <button class="plusBuy" id="product1-plus">+</button>
+                                        <span id="product1-count">0</span>
+                                        <button class="negBuy" id="product1-minus">&#8722;</button>
+                                      </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                  </div>
-                </div>
-                <div class="rowr r">
-                  <div class="col">
-                    <div class="card-rows">
-                        <div class="title-card"></div>
-                        <div class="card-info">
-                            <div class="card-img"></div>
-                            <div class="card-name"></div>
-                            <div class="card-price"></div>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row r">
-                  <div class="col">
-                    <div class="card-rows">
-                        <div class="title-card"></div>
-                        <div class="card-info">
-                            <div class="card-img"></div>
-                            <div class="card-name"></div>
-                            <div class="card-price"></div>
-                        </div>
-                    </div>
-                  </div>
                 </div>
 
-                
-              </div>
+                <div class="row r">
+                    <div class="title-card">Espresso Base</div>
+                    <div class="col">
+                        <div class="card-rows">
+                            <div class="card-infos" id="product2">
+                              <div class="card-img">
+                                <img src="img/logo.jpg" alt="logo">
+                              </div>
+                              <div class="card-name">اسپرسو کارامل</div>
+                              <div class="card-price" dir="rtl">
+                                40.000 <img src="img/toman.webp" class="riyal" alt="">
+                              </div>
+                              <div class="buy">
+                                <div id="counter">
+                                  <button class="plusBuy" id="product2-plus">+</button>
+                                  <span id="product2-count">0</span>
+                                  <button class="negBuy" id="product2-minus">&#8722;</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="yaddasht" id="yaddasht">
+            <div class="close-yad" id="close-yadddasht"><i class='bx bx-x'></i></div>
+            <div class="sabad" dir="rtl">
+                <i class='bx bx-shopping-bag'></i>
+                <div class="boxprice">
+                    <div class="tomas-show">تومان</div>
+                    <p class="showprice totalCost" id="totalCost"></p>
+                </div>
+            </div>
         </div>
 
     </main>
