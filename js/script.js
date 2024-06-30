@@ -27,8 +27,9 @@ let yaddasht = document.getElementById('yaddasht');
 // // card base 1
 // Product data (modify prices and names as needed)
 const products = [
-    { id: "product1", name: "spresso caramel", price: 20000 },
-    { id: "product2", name: "spresso late", price: 40000 },
+    { id: "product1", name: "spresso caramel", price: 20 },
+    { id: "product2", name: "spresso late", price: 40},
+    { id: "product3", name: "spresso late", price: 60 },
   ];
   
   // Initialize product counts and total cost
