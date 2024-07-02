@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
 
-<body class="body">
+<body class="body" style="height: 1310vh !important;">
 
     <div class="preload" data-preaload>
         <div class="circle"></div>
@@ -39,13 +39,13 @@
 
     <main class="main-menu">
         <i class='bx bxs-dashboard menubutton' id="menubutoon"></i>
-
+        <p class="texttopmenubutton">Hug Coffee</p>
         <menu class="menuslide" id="menuslide">
             <i class='bx bx-x close' id="close"></i>
             <div class="container text-center">
                 <div class="row">
                     <div class="col">
-                        <a href="menu/menu.html">
+                        <a target="_blank" href="menu.html#EspressoBase">
                             <div class="backimage">
                                 <img src="img/Espresso-Bar.svg" alt="Espresso Base" class="image-side">
                                 <p class="text-image">Espresso Base</p>
@@ -54,7 +54,7 @@
                     </div>
 
                     <div class="col">
-                        <a href="#">
+                        <a target="_blank" href="menu.html#MilkBase">
                             <div class="backimage">
                                 <img src="img/milk.svg" alt="Milk base" class="image-side">
                                 <p class="text-image">Milk base</p>
@@ -63,17 +63,17 @@
                     </div>
 
                     <div class="col">
-                        <a href="#">
+                        <a target="_blank" href="menu.html#coldcoffeebase">
                             <div class="backimage">
-                                <img src="img/Cold-Coffee-Based.svg" alt="Cold coffe base" class="image-side">
-                                <p class="text-image">Cold coffe base</p>
+                                <img src="img/Cold-Coffee-Based.svg" alt="Cold coffee base" class="image-side">
+                                <p class="text-image">Cold coffee base</p>
                             </div>
                         </a>
                     </div>
 
 
                     <div class="col">
-                        <a href="#">
+                        <a target="_blank" href="menu.html#mocktail">
                             <div class="backimage">
                                 <img src="img/mocktail.svg" alt="Mocktail" class="image-side">
                                 <p class="text-image">Mocktail</p>
@@ -83,7 +83,7 @@
 
 
                     <div class="col">
-                        <a href="#">
+                        <a target="_blank" href="menu.html#milkshake">
                             <div class="backimage">
                                 <img src="img/milkshake.png" alt="Hug-coffe" class="image-side">
                                 <p class="text-image">Milk Shake</p>
@@ -93,7 +93,7 @@
 
 
                     <div class="col">
-                        <a href="#">
+                        <a target="_blank" href="menu.html#cake">
                             <div class="backimage">
                                 <img src="img/cake.png" alt="Cake" class="image-side">
                                 <p class="text-image">Cake</p>
@@ -102,7 +102,7 @@
                     </div>
 
                     <div class="col">
-                        <a href="#">
+                        <a target="_blank" href="menu.html#breakfast">
                             <div class="backimage">
                                 <img src="img/breakfast.svg" alt="Breakfast" class="image-side">
                                 <p class="text-image">Breakfast</p>
@@ -111,7 +111,7 @@
                     </div>
 
                     <div class="col">
-                        <a href="#">
+                        <a target="_blank" href="menu.html#food">
                             <div class="backimage">
                                 <img src="img/food.svg" alt="food" class="image-side">
                                 <p class="text-image">Food</p>
@@ -121,7 +121,7 @@
 
 
                     <div class="col">
-                        <a href="#">
+                        <a target="_blank" href="menu.html#juice">
                             <div class="backimage">
                                 <img src="img/Juice.svg" alt="Hug-coffe" class="image-side">
                                 <p class="text-image">Juice</p>
@@ -136,83 +136,1518 @@
         <div class="cards">
             <div class="container text-center">
 
+                <!-- Cold Coffee Base -->
 
                 <div class="row r">
-                    <div class="title-card">Espresso Base</div>
+                    <div class="title-card" id="coldcoffeebase">Cold Coffee Base</div>
                     <div class="col">
                         <div class="card-rows">
                             <div class="card-infos" id="product1">
                                 <div class="card-img">
                                     <img src="img/logo.jpg" alt="logo">
                                 </div>
-                                <div class="card-name">اسپرسو کارامل</div>
+                                <div class="card-name">آیس اسپرسو</div>
                                 <div class="card-price" dir="rtl">
-                                    20.000 <img src="img/toman.webp" class="riyal" alt="">
+                                    450.000 <img src="img/toman.png" class="riyal" alt="آیس اسپرسو">
                                 </div>
                                 <div class="buy">
                                     <div id="counter">
                                         <button class="plusBuy" id="product1-plus">+</button>
                                         <span id="product1-count">0</span>
                                         <button class="negBuy" id="product1-minus">&#8722;</button>
-                                      </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="row r">
-                    <div class="title-card"> Milk Base</div>
-                    <div class="col">
-                        <div class="card-rows">
-                            <div class="card-infos" id="product2">
-                              <div class="card-img">
-                                <img src="img/logo.jpg" alt="logo">
-                              </div>
-                              <div class="card-name">اسپرسو کارامل</div>
-                              <div class="card-price" dir="rtl">
-                                40.000 <img src="img/toman.webp" class="riyal" alt="">
-                              </div>
-                              <div class="buy">
-                                <div id="counter">
-                                  <button class="plusBuy" id="product2-plus">+</button>
-                                  <span id="product2-count">0</span>
-                                  <button class="negBuy" id="product2-minus">&#8722;</button>
+                <div class="coldcoffebase-menu">
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product2">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name">آیس آمریکانو</div>
+                                    <div class="card-price" dir="rtl">
+                                        600.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product2-plus">+</button>
+                                            <span id="product2-count">0</span>
+                                            <button class="negBuy" id="product2-minus">&#8722;</button>
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
-                          </div>
-                          
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product3">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name">آیس اسپرسو(عربیکا)</div>
+                                    <div class="card-price" dir="rtl">
+                                        500.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product3-plus">+</button>
+                                            <span id="product3-count">0</span>
+                                            <button class="negBuy" id="product3-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product4">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 17px;">آیس لته(سیروپ+100.000)</div>
+                                    <div class="card-price" dir="rtl">
+                                        700.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product4-plus">+</button>
+                                            <span id="product4-count">0</span>
+                                            <button class="negBuy" id="product4-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product5">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name">آفوگاتو</div>
+                                    <div class="card-price" dir="rtl">
+                                        550.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product5-plus">+</button>
+                                            <span id="product5-count">0</span>
+                                            <button class="negBuy" id="product5-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product6">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name">فراپاچینو</div>
+                                    <div class="card-price" dir="rtl">
+                                        700.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product6-plus">+</button>
+                                            <span id="product6-count">0</span>
+                                            <button class="negBuy" id="product6-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product7">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name">آیس موکا</div>
+                                    <div class="card-price" dir="rtl">
+                                        850.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product7-plus">+</button>
+                                            <span id="product7-count">0</span>
+                                            <button class="negBuy" id="product7-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product8">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">آیس ماکیاتو(سیروپ + 100.000)</div>
+                                    <div class="card-price" dir="rtl">
+                                        800.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product8-plus">+</button>
+                                            <span id="product8-count">0</span>
+                                            <button class="negBuy" id="product8-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product9">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">آیس رومانو</div>
+                                    <div class="card-price" dir="rtl">
+                                        500.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product9-plus">+</button>
+                                            <span id="product9-count">0</span>
+                                            <button class="negBuy" id="product9-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
 
+                <!-- Milk Base -->
+
                 <div class="row r">
+                    <div class="title-card" id="MilkBase">Milk Base</div>
                     <div class="col">
                         <div class="card-rows">
-                            <div class="card-infos" id="product3">
-                              <div class="card-img">
-                                <img src="img/logo.jpg" alt="logo">
-                              </div>
-                              <div class="card-name">اسپرسو کارامل</div>
-                              <div class="card-price" dir="rtl">
-                                40.000 <img src="img/toman.webp" class="riyal" alt="">
-                              </div>
-                              <div class="buy">
-                                <div id="counter">
-                                  <button class="plusBuy" id="product3-plus">+</button>
-                                  <span id="product3-count">0</span>
-                                  <button class="negBuy" id="product3-minus">&#8722;</button>
+                            <div class="card-infos" id="product10">
+                                <div class="card-img">
+                                    <img src="img/logo.jpg" alt="logo">
                                 </div>
-                              </div>
+                                <div class="card-name" style="font-size: 15px;">هات چاکلت</div>
+                                <div class="card-price" dir="rtl">
+                                    600.000 <img src="img/toman.png" class="riyal" alt="">
+                                </div>
+                                <div class="buy">
+                                    <div id="counter">
+                                        <button class="plusBuy" id="product10-plus">+</button>
+                                        <span id="product10-count">0</span>
+                                        <button class="negBuy" id="product10-minus">&#8722;</button>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          
+                        </div>
+
+                    </div>
+                </div>
+                <div class="milkbase-menu">
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product11">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">وایت چاکلت</div>
+                                    <div class="card-price" dir="rtl">
+                                        650.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product11-plus">+</button>
+                                            <span id="product11-count">0</span>
+                                            <button class="negBuy" id="product11-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product12">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">ماسالا</div>
+                                    <div class="card-price" dir="rtl">
+                                        600.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product12-plus">+</button>
+                                            <span id="product12-count">0</span>
+                                            <button class="negBuy" id="product12-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product13">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">ماسالا کارامل</div>
+                                    <div class="card-price" dir="rtl">
+                                        650.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product13-plus">+</button>
+                                            <span id="product13-count">0</span>
+                                            <button class="negBuy" id="product13-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product14">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">ماسالا زعفرانی</div>
+                                    <div class="card-price" dir="rtl">
+                                        650.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product14-plus">+</button>
+                                            <span id="product14-count">0</span>
+                                            <button class="negBuy" id="product14-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product15">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">شیر داغ</div>
+                                    <div class="card-price" dir="rtl">
+                                        350.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product15-plus">+</button>
+                                            <span id="product15-count">0</span>
+                                            <button class="negBuy" id="product15-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product16">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">شیر کاکائو</div>
+                                    <div class="card-price" dir="rtl">
+                                        450.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product16-plus">+</button>
+                                            <span id="product16-count">0</span>
+                                            <button class="negBuy" id="product16-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product17">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">شیر بیسکوئیت</div>
+                                    <div class="card-price" dir="rtl">
+                                        550.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product17-plus">+</button>
+                                            <span id="product17-count">0</span>
+                                            <button class="negBuy" id="product17-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product18">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">شیر کارامل</div>
+                                    <div class="card-price" dir="rtl">
+                                        500.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product18-plus">+</button>
+                                            <span id="product18-count">0</span>
+                                            <button class="negBuy" id="product18-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product19">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">شیر فندق</div>
+                                    <div class="card-price" dir="rtl">
+                                        500.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product19-plus">+</button>
+                                            <span id="product19-count">0</span>
+                                            <button class="negBuy" id="product19-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product20">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">شیر وانیل</div>
+                                    <div class="card-price" dir="rtl">
+                                        500.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product20-plus">+</button>
+                                            <span id="product20-count">0</span>
+                                            <button class="negBuy" id="product20-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product21">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">شیر موز</div>
+                                    <div class="card-price" dir="rtl">
+                                        700.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product21-plus">+</button>
+                                            <span id="product21-count">0</span>
+                                            <button class="negBuy" id="product21-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product22">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">شیر انبه</div>
+                                    <div class="card-price" dir="rtl">
+                                        700.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product22-plus">+</button>
+                                            <span id="product22-count">0</span>
+                                            <button class="negBuy" id="product22-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product23">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">شیر توت فرنگی</div>
+                                    <div class="card-price" dir="rtl">
+                                        850.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product23-plus">+</button>
+                                            <span id="product23-count">0</span>
+                                            <button class="negBuy" id="product23-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
 
+                <!-- espresso Base  -->
+
+                <div class="row r">
+                    <div class="title-card" id="EspressoBase">Espresso Base</div>
+                    <div class="col">
+                        <div class="card-rows">
+                            <div class="card-infos" id="product24">
+                                <div class="card-img">
+                                    <img src="img/logo.jpg" alt="logo">
+                                </div>
+                                <div class="card-name" style="font-size: 15px;">اسپرسو</div>
+                                <div class="card-price" dir="rtl">
+                                    350.000 <img src="img/toman.png" class="riyal" alt="">
+                                </div>
+                                <div class="buy">
+                                    <div id="counter">
+                                        <button class="plusBuy" id="product24-plus">+</button>
+                                        <span id="product24-count">0</span>
+                                        <button class="negBuy" id="product24-minus">&#8722;</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="espressobase-menu">
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product25">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">اسپرسو(عربیکا)</div>
+                                    <div class="card-price" dir="rtl">
+                                        400.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product25-plus">+</button>
+                                            <span id="product25-count">0</span>
+                                            <button class="negBuy" id="product25-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product26">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">آمریکانو</div>
+                                    <div class="card-price" dir="rtl">
+                                        500.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product26-plus">+</button>
+                                            <span id="product26-count">0</span>
+                                            <button class="negBuy" id="product26-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product27">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">آمریکانو(عربیکا)</div>
+                                    <div class="card-price" dir="rtl">
+                                        550.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product27-plus">+</button>
+                                            <span id="product27-count">0</span>
+                                            <button class="negBuy" id="product27-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product28">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">اسپرسو ماکیاتو</div>
+                                    <div class="card-price" dir="rtl">
+                                        400.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product28-plus">+</button>
+                                            <span id="product28-count">0</span>
+                                            <button class="negBuy" id="product28-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product29">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">کورتادو</div>
+                                    <div class="card-price" dir="rtl">
+                                        450.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product29-plus">+</button>
+                                            <span id="product29-count">0</span>
+                                            <button class="negBuy" id="product29-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product30">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">فلت وایت</div>
+                                    <div class="card-price" dir="rtl">
+                                        450.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product30-plus">+</button>
+                                            <span id="product30-count">0</span>
+                                            <button class="negBuy" id="product30-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product31">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">رومانو</div>
+                                    <div class="card-price" dir="rtl">
+                                        400.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product31-plus">+</button>
+                                            <span id="product31-count">0</span>
+                                            <button class="negBuy" id="product31-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product32">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">لته(سیروپ + 500.000)</div>
+                                    <div class="card-price" dir="rtl">
+                                        650.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product32-plus">+</button>
+                                            <span id="product32-count">0</span>
+                                            <button class="negBuy" id="product32-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product33">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">ماکیاتو (سیروپ + 500.000)</div>
+                                    <div class="card-price" dir="rtl">
+                                        750.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product33-plus">+</button>
+                                            <span id="product33-count">0</span>
+                                            <button class="negBuy" id="product33-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product34">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">موکا</div>
+                                    <div class="card-price" dir="rtl">
+                                        750.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product34-plus">+</button>
+                                            <span id="product34-count">0</span>
+                                            <button class="negBuy" id="product34-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product35">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">فرنچ وانیلا</div>
+                                    <div class="card-price" dir="rtl">
+                                        450.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product35-plus">+</button>
+                                            <span id="product35-count">0</span>
+                                            <button class="negBuy" id="product35-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product36">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">قهوه ترک</div>
+                                    <div class="card-price" dir="rtl">
+                                        500.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product36-plus">+</button>
+                                            <span id="product36-count">0</span>
+                                            <button class="negBuy" id="product36-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product37">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">یونانی</div>
+                                    <div class="card-price" dir="rtl">
+                                        600.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product37-plus">+</button>
+                                            <span id="product37-count">0</span>
+                                            <button class="negBuy" id="product37-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product38">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">کاپوچینو</div>
+                                    <div class="card-price" dir="rtl">
+                                        600.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product38-plus">+</button>
+                                            <span id="product38-count">0</span>
+                                            <button class="negBuy" id="product38-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product39">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">نسکافه</div>
+                                    <div class="card-price" dir="rtl">
+                                        500.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product39-plus">+</button>
+                                            <span id="product39-count">0</span>
+                                            <button class="negBuy" id="product39-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mocktail  -->
+                <div class="row r">
+                    <div class="title-card" id="mocktail">Mocktail</div>
+                    <div class="col">
+                        <div class="card-rows">
+                            <div class="card-infos" id="product40">
+                                <div class="card-img">
+                                    <img src="img/logo.jpg" alt="logo">
+                                </div>
+                                <div class="card-name" style="font-size: 15px;">موکتل هاگ</div>
+                                <div class="card-price" dir="rtl">
+                                    1.450.000 <img src="img/toman.png" class="riyal" alt="">
+                                </div>
+                                <div class="buy">
+                                    <div id="counter">
+                                        <button class="plusBuy" id="product40-plus">+</button>
+                                        <span id="product40-count">0</span>
+                                        <button class="negBuy" id="product40-minus">&#8722;</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="mocktail-menu">
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product41">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">موکتل رنگین کمان</div>
+                                    <div class="card-price" dir="rtl">
+                                        1.200.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product41-plus">+</button>
+                                            <span id="product41-count">0</span>
+                                            <button class="negBuy" id="product41-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product42">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">موکتل اقیانوس</div>
+                                    <div class="card-price" dir="rtl">
+                                        800.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product42-plus">+</button>
+                                            <span id="product42-count">0</span>
+                                            <button class="negBuy" id="product42-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
 
 
-                
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product43">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">موکتل دارک</div>
+                                    <div class="card-price" dir="rtl">
+                                        1.200.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product43-plus">+</button>
+                                            <span id="product43-count">0</span>
+                                            <button class="negBuy" id="product43-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product44">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">موهیتو</div>
+                                    <div class="card-price" dir="rtl">
+                                        1.200.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product44-plus">+</button>
+                                            <span id="product44-count">0</span>
+                                            <button class="negBuy" id="product44-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product45">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">رد موهیتو</div>
+                                    <div class="card-price" dir="rtl">
+                                        1.200.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product45-plus">+</button>
+                                            <span id="product45-count">0</span>
+                                            <button class="negBuy" id="product45-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product46">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">بلو موهیتو</div>
+                                    <div class="card-price" dir="rtl">
+                                        1.200.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product46-plus">+</button>
+                                            <span id="product46-count">0</span>
+                                            <button class="negBuy" id="product46-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product47">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">لیموناد</div>
+                                    <div class="card-price" dir="rtl">
+                                        750.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product47-plus">+</button>
+                                            <span id="product47-count">0</span>
+                                            <button class="negBuy" id="product47-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product48">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">چری بری</div>
+                                    <div class="card-price" dir="rtl">
+                                        1.250.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product48-plus">+</button>
+                                            <span id="product48-count">0</span>
+                                            <button class="negBuy" id="product48-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- milk shake  -->
+                <div class="row r">
+                    <div class="title-card" id="milkshake">Milk Shake</div>
+                    <div class="col">
+                        <div class="card-rows">
+                            <div class="card-infos" id="product49">
+                                <div class="card-img">
+                                    <img src="img/logo.jpg" alt="logo">
+                                </div>
+                                <div class="card-name" style="font-size: 15px;">شیک وانیل</div>
+                                <div class="card-price" dir="rtl">
+                                    1.150.000 <img src="img/toman.png" class="riyal" alt="">
+                                </div>
+                                <div class="buy">
+                                    <div id="counter">
+                                        <button class="plusBuy" id="product49-plus">+</button>
+                                        <span id="product49-count">0</span>
+                                        <button class="negBuy" id="product49-minus">&#8722;</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="milkshake-menu">
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product50">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">شیک شکلات</div>
+                                    <div class="card-price" dir="rtl">
+                                        1.200.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product50-plus">+</button>
+                                            <span id="product50-count">0</span>
+                                            <button class="negBuy" id="product50-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product51">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">شیک انبه</div>
+                                    <div class="card-price" dir="rtl">
+                                        1.350.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product51-plus">+</button>
+                                            <span id="product51-count">0</span>
+                                            <button class="negBuy" id="product51-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product52">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">شیک توت فرنگی</div>
+                                    <div class="card-price" dir="rtl">
+                                        1.500.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product52-plus">+</button>
+                                            <span id="product52-count">0</span>
+                                            <button class="negBuy" id="product52-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product53">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">شیک موز</div>
+                                    <div class="card-price" dir="rtl">
+                                        1.300.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product53-plus">+</button>
+                                            <span id="product53-count">0</span>
+                                            <button class="negBuy" id="product53-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product54">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">شیک موز شکلات</div>
+                                    <div class="card-price" dir="rtl">
+                                        1.350.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product54-plus">+</button>
+                                            <span id="product54-count">0</span>
+                                            <button class="negBuy" id="product54-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product55">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">شیک انبه شکلات</div>
+                                    <div class="card-price" dir="rtl">
+                                        1.500.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product55-plus">+</button>
+                                            <span id="product55-count">0</span>
+                                            <button class="negBuy" id="product55-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product56">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">شیک توت فرنگی شکلات</div>
+                                    <div class="card-price" dir="rtl">
+                                        1.600.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product56-plus">+</button>
+                                            <span id="product56-count">0</span>
+                                            <button class="negBuy" id="product56-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product57">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">شیک دارک</div>
+                                    <div class="card-price" dir="rtl">
+                                        1.450.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product57-plus">+</button>
+                                            <span id="product57-count">0</span>
+                                            <button class="negBuy" id="product57-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product58">
+                                    <div class="card-img">
+                                        <img src="img/logo.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">شیک نوتلا</div>
+                                    <div class="card-price" dir="rtl">
+                                        1.600.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product58-plus">+</button>
+                                            <span id="product58-count">0</span>
+                                            <button class="negBuy" id="product58-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- cake  -->
+                <div class="row r">
+                    <div class="title-card" id="cake">Cakes</div>
+                    <div class="col">
+                        <div class="card-rows">
+                            <div class="card-infos" id="product59">
+                                <div class="card-img">
+                                    <img src="img/cake/ebeza.jpg" alt="logo">
+                                </div>
+                                <div class="card-name" style="font-size: 15px;">ایبیزا</div>
+                                <div class="card-price" dir="rtl">
+                                    780.000 <img src="img/toman.png" class="riyal" alt="">
+                                </div>
+                                <div class="buy">
+                                    <div id="counter">
+                                        <button class="plusBuy" id="product59-plus">+</button>
+                                        <span id="product59-count">0</span>
+                                        <button class="negBuy" id="product59-minus">&#8722;</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="cake-menu">
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product60">
+                                    <div class="card-img">
+                                        <img src="img/cake/rollet.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">رولت</div>
+                                    <div class="card-price" dir="rtl">
+                                        880.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product60-plus">+</button>
+                                            <span id="product60-count">0</span>
+                                            <button class="negBuy" id="product60-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product61">
+                                    <div class="card-img">
+                                        <img src="img/cake/che-cake.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">چیز کیک</div>
+                                    <div class="card-price" dir="rtl">
+                                        780.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product61-plus">+</button>
+                                            <span id="product61-count">0</span>
+                                            <button class="negBuy" id="product61-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row r">
+                        <div class="col">
+                            <div class="card-rows">
+                                <div class="card-infos" id="product62">
+                                    <div class="card-img">
+                                        <img src="img/cake/cake-choc.jpg" alt="logo">
+                                    </div>
+                                    <div class="card-name" style="font-size: 15px;">کیک شکلات</div>
+                                    <div class="card-price" dir="rtl">
+                                        880.000 <img src="img/toman.png" class="riyal" alt="">
+                                    </div>
+                                    <div class="buy">
+                                        <div id="counter">
+                                            <button class="plusBuy" id="product62-plus">+</button>
+                                            <span id="product62-count">0</span>
+                                            <button class="negBuy" id="product62-minus">&#8722;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- breakfast  -->
+                <div class="row r">
+                    <div class="title-card" id="breakfast" style="margin: 80px 0;">breakfast soon.....</div>
+                </div>
+                <!-- food  -->
+                <div class="row r">
+                    <div class="title-card" id="food" style="margin: 80px 0;">food soon.....</div>
+                </div>
+                <!-- juice  -->
+                <div class="row r">
+                    <div class="title-card" id="juice" style="margin: 80px 0;">juice soon.....</div>
+                </div>
             </div>
         </div>
 
